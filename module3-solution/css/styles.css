@@ -1,0 +1,82 @@
+body {
+    background-color: lightblue;
+    color: black;
+}
+
+#com-name {
+    font-size: 1.4em;
+    color: white;
+    margin-left: 15px !important ;
+}
+
+#header-nav {
+    background-color: darkgreen;
+    border-radius: 0;
+    border: 2px solid black;
+}
+
+@media (min-width: 768px) {
+    #collapsable-nav{
+        display: none !important;
+    }
+}
+#nav-list {
+    margin-top: 10px;
+  }
+
+#nav-list a {
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+#nav-list   a:hover {
+    background: black;
+    opacity: 30%;
+  }
+
+#nav-list a span {
+    font-size: 1.8em;
+  }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid white ;
+  }
+
+.con-con {
+    background-color: lightslategray;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.con-con h3 {
+    font-size: 1.6em;
+    margin-top: 15px;
+    font-family: 'Lora', serif !important;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+#our-menu  {
+    margin-bottom: 20px !important;
+    font-family: 'Oxygen', sans-serif !important;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#nav-list {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+hr {
+    width: 70%;
+}
